@@ -37,12 +37,11 @@ if(carousel){
  const track=carousel.querySelector(".review-track");
  const group=carousel.querySelector(".review-group");
  const toggle=carousel.querySelector(".review-toggle");
- const reduced=window.matchMedia("(prefers-reduced-motion: reduce)");
  const duplicate=group.cloneNode(true);
  duplicate.setAttribute("aria-hidden","true");
  duplicate.querySelectorAll("img").forEach(img=>{img.alt="";});
  track.append(duplicate);
- let userPaused=reduced.matches,hovered=false,focused=false,visible=true;
+ let userPaused=false,hovered=false,focused=false,visible=true;
  let previous=0,position=viewport.scrollLeft,scrollPauseUntil=0;
  const label=()=>{toggle.textContent=userPaused?"Retomar movimento":"Pausar movimento";toggle.setAttribute("aria-pressed",String(userPaused));};
  label();
@@ -58,7 +57,6 @@ if(carousel){
  viewport.addEventListener("keydown",event=>{
   if(["ArrowLeft","ArrowRight","Home","End","PageUp","PageDown"].includes(event.key)){userPaused=true;label();}
  });
- reduced.addEventListener("change",event=>{if(event.matches){userPaused=true;label();}});
  if("IntersectionObserver" in window)new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;},{threshold:0}).observe(viewport);
  function animate(now){
   const elapsed=previous?Math.min(now-previous,50):0;previous=now;
