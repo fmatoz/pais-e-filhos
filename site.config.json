@@ -1,0 +1,13 @@
+{
+  "name": "Pais e Filhos",
+  "subtitle": "Montadora e Marcenaria",
+  "phone": "5511967996030",
+  "phoneDisplay": "(11) 96799-6030",
+  "siteUrl": "",
+  "promotion": {
+    "mode": "daily",
+    "title": "Solicite seu orçamento hoje e consulte descontos de até 5%.",
+    "terms": "Condição renovada diariamente. O desconto varia conforme o serviço e o projeto e deve ser confirmado no orçamento.",
+    "timeZone": "America/Sao_Paulo"
+  }
+}
