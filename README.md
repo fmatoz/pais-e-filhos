@@ -21,7 +21,7 @@ npm start
 Preview em http://localhost:4173. Não é preciso instalar pacotes.
 
 ## Promoção e contador
-A condição diária está configurada em site.config.json: orçamento com possibilidade de até 5% de desconto, conforme serviço e projeto. A página informa explicitamente que a condição se renova todos os dias. O contador usa America/Sao_Paulo e reinicia à meia-noite dessa região, independentemente do fuso do visitante. Confirme com o cliente que o benefício será honrado antes de publicar. Para desativar, defina promotion como null.
+A condição diária está configurada em site.config.json: orçamento com possibilidade de até 5% de desconto, conforme serviço e projeto. A interface apresenta o incentivo para pedir orçamento hoje e as condições do desconto; não afirma que o benefício termina definitivamente à meia-noite. O contador usa America/Sao_Paulo e reinicia à meia-noite dessa região, independentemente do fuso do visitante. Confirme com o cliente que o benefício será honrado antes de publicar. Para desativar, defina promotion como null.
 Também há suporte a prazo fixo usando expiresAt com data ISO e fuso; nesse modo não há reinício.
 
 ## Conteúdo e fontes
