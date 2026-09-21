@@ -40,3 +40,6 @@ As fotos PNG foram preservadas para revisão. Para reduzir o peso do site, podem
 
 ## Validação
 A integração contínua executa testes de links, arquivos, WhatsApp, SEO e expiração do contador, além do build. Verificação visual em celular/desktop deve ser feita no preview da Vercel.
+
+## Experiência e satisfação
+A primeira seção apresenta mais de 25 anos de experiência e 99% de satisfação, confirmados pelo responsável pelo site na conversa em 21/09/2026. Esses indicadores são separados da nota 5,0 e das 243 avaliações do Google; não foram calculados a partir delas.
