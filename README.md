@@ -34,7 +34,7 @@ Também há suporte a prazo fixo usando expiresAt com data ISO e fuso; nesse mod
 - O endereço é a base da empresa; cobertura por bairro deve ser confirmada no WhatsApp.
 
 ## SEO e privacidade
-Title e description locais, canonical no build, Open Graph, robots.txt, sitemap.xml e dados estruturados HomeAndConstructionBusiness. Sem marcação de avaliações autorreferentes nem promessa de estrelas no Google. Imagens de galeria com lazy loading e dimensões declaradas. Fontes locais do sistema, navegação por teclado, suporte a movimento reduzido. Nenhum pixel de anúncios ou analytics está instalado. Contato abre o WhatsApp com texto pronto; não há coleta em banco de dados.
+Title e description locais, canonical no build, Open Graph, robots.txt, sitemap.xml e dados estruturados HomeAndConstructionBusiness. Sem marcação de avaliações autorreferentes nem promessa de estrelas no Google. Imagens de galeria com lazy loading e dimensões declaradas. Fontes locais do sistema, navegação por teclado, suporte a movimento reduzido. A etiqueta base do Google Ads AW-1005276118 está instalada uma única vez no head de cada página HTML. Eventos de conversão específicos ainda não foram configurados. Contato abre o WhatsApp com texto pronto; não há coleta em banco de dados.
 
 As fotos PNG foram preservadas para revisão. Para reduzir o peso do site, podem ser convertidas para WebP/AVIF mantendo a fidelidade e atualizando as referências no HTML, app e SEO.
 
